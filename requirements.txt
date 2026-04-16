@@ -1,0 +1,13 @@
+# Python dependencies for the host-side scripts.
+#
+# The macOS / Linux / WSL2 path uses ONLY the standard library
+# (tools/grab.py and tools/capture.py read serial via `cat`).
+# On those platforms you do NOT need to install anything from this file.
+#
+# The native Windows path (see WINDOWS.md, Path 2) needs pyserial because
+# Windows COM ports cannot be read with `cat`.
+#
+# Install:
+#     pip install -r requirements.txt        # one platform-agnostic command
+#
+pyserial>=3.5

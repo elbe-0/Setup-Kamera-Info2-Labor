@@ -1,0 +1,15 @@
+# PlatformIO build output
+.pio/
+
+# Local Python virtualenv
+.venv/
+
+# Captured frames and datasets
+image.jpg
+data/
+
+# macOS / editor noise
+.DS_Store
+.vscode/
+.idea/
+*.swp
